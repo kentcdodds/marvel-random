@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <title>Marvel Random Demo</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+<div id="container">
+  <div class="title card animated fadeInDown">
+    <h1>
+      <span class="animated fadeInLeftBig">Marvel Random!</span><br />
+      <small class="animated fadeInRightBig">To the rescue!</small>
+    </h1>
+  </div>
+  <div class="character-wrapper card animated fadeInUp">
+    <div id="character-and-controls" class="animated">
+      <div class="character-container">
+        <div class="avatar-container text-center">
+          <img id="avatar" class="img-rounded" src="" />
+        </div>
+        <div class="character-name-wrapper text-center">
+          <h2 id="character-name"></h2>
+        </div>
+        <div class="character-description-wrapper">
+          <strong>Description:</strong>
+          <span id="character-description">No Description...</span>
+        </div>
+        <div class="character-url-wrapper">
+          <strong>URLs:</strong>
+          <ul id="character-urls"></ul>
+        </div>
+      </div>
+      <div class="new-character-button text-center">
+        <button id="get-new-character" class="btn btn-primary">Get New Character</button>
+      </div>
+    </div>
+    <div id="loading-container" class="text-center animated">
+      <img id="loader" src="resources/loading.gif" />
+      <h3>Loading...</h3>
+    </div>
+  </div>
+  <div class="what-is-this-link">
+    <a href="http://github.com/kentcdodds/marvel-random">What's this?</a>
+  </div>
+</div>
+
+<script src="src/marvel-random.js"></script>
+<script src="script.js"></script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-42764912-1', 'doddsfamily.us');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
