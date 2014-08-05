@@ -1,0 +1,64 @@
+body {
+  background:url("resources/city.jpg") no-repeat center center fixed;
+  background-size:cover;
+  margin: 60px;
+}
+
+.card {
+  margin: 40px auto 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  border-radius: 2px;
+}
+
+.title {
+  width: 400px;
+  text-align: center;
+}
+
+.title h1 span {
+  -ms-animation-delay: .5s;
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
+}
+
+.title h1 small {
+  -ms-animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+
+.character-wrapper {
+  width: 600px;
+  -ms-animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  position: relative;
+}
+
+#avatar {
+  width: 240px;
+  margin-bottom: 20px;
+}
+
+.what-is-this-link {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.what-is-this-link a,
+.what-is-this-link a:visited {
+  color: rgba(255, 255, 255, 0.6);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.26);
+}
+
+.what-is-this-link a:focus,
+.what-is-this-link a:hover,
+.what-is-this-link a:active {
+  color: #fff;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.26);
+  text-decoration: none;
+}
