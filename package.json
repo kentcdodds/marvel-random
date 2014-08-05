@@ -5,6 +5,7 @@
   "main": "dist/marvel-random.js",
   "devDependencies": {
     "gulp": "^3.8.6",
+    "gulp-gh-pages": "^0.3.3",
     "gulp-rename": "^1.2.0",
     "gulp-uglify": "^0.3.1"
   },
