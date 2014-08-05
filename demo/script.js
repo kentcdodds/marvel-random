@@ -77,6 +77,7 @@
       inEl = loadingContainer;
       outEl = characterAndControls;
     }
+
     addClass(inEl, 'fadeIn');
     removeClass(inEl, 'fadeOut');
     removeClass(inEl, 'hidden');
