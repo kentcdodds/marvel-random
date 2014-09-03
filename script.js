@@ -70,6 +70,7 @@
 
   getNewCharacter();
 
+  // UTIL FUNCTIONS
   function setLoading(isLoading) {
     var inEl = characterAndControls;
     var outEl = loadingContainer;
@@ -87,6 +88,7 @@
     removeClass(outEl, 'fadeIn');
   }
 
+  // DOM FUNCTIONS
   function hideEl(el) {
     addClass(el, 'hidden');
   }
